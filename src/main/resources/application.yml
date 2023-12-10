@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql:///spring-test
+      username: root
+      password: 297592781
+
+mybatis:
+  mapper-locations: com.example.demo.mapper/*mapper.xml
